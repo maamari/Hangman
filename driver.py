@@ -5,13 +5,19 @@ Collaborators: Karime, Jaoudat, Ryan
 
 from getpass import getpass
 
+#def checkGuess(keyword, guess):
+    #output = []
+    #for letter in keyword:
+        #if letter==
+
 def main():
     user1input = getpass("Welcome to Hangman!\nUser 1, please enter keyword: ")
     num_underscore = len(user1input)
     
-    for i in num_underscore:
+    for i in range(num_underscore):
         print('_ ', end='')
     print('')
+    
     user2input = input("User2, please enter guess: ")
 
 
