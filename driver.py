@@ -12,6 +12,7 @@ def main():
     for i in num_underscore:
         print('_ ', end='')
     print('')
+    user2input = input("User2, please enter guess: ")
 
 
 if __name__ == "__main__":
