@@ -4,6 +4,7 @@ Collaborators: Karime, Jaoudat, Ryan
 '''
 
 from getpass import getpass
+#temp
 
 def checkGuess(keyword, guess, output):
     for i, letter in enumerate(keyword):
