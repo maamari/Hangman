@@ -7,8 +7,8 @@ from getpass import getpass
 #temp
 
 def checkGuess(keyword, guess, output):
-    for i, letter in enumerate(keyword):
-        if letter is guess:
+    for i, let in enumerate(keyword):
+        if let is guess:
             output[i] = guess+' '
     return output
 
